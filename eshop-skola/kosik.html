@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Košík</title>
+  <!-- Font Awesome ikony -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+
+      <!-- moje CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/kosik.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+  <!-- Hlavička -->
+  <header class="bg-gray-100 p-3">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-4">
+            <a href="./index.html">
+                <img src="https://dancelogo.com/images/example/logo-static-420.png" class="logo">
+
+            </a>        </div>
+        <div class="col-lg-4 text-center">
+          <!-- Vyhledávač -->
+          <div class="search-box">
+            <input type="text" class="form-control" placeholder="Hledat...">
+        </div>
+        
+          
+        </div>
+        <div class="col-lg-4 text-end">
+          <a href="#" class="text-dark me-4">Přihlásit se</a>
+          <a href="#" class="text-dark">Registrace</a>
+          <a href="#" class="text-dark ms-4">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Obsah -->
+  <div class="container my-5">   
+    
+    <h1 class="text-3xl font-semibold mt-5">Košík</h1>
+    <!-- sekce košíku -->
+    <div class="table-responsive">
+      <table class="cart-table mt-3">
+        <thead>
+          <tr>
+            <th>Produkt</th>
+            <th>Název</th>
+            <th>Cena</th>
+            <th>Akce</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://cdn.pixabay.com/photo/2015/08/25/03/51/toner-906142_960_720.jpg" alt="Obrázek produktu" style="max-width: 100px;"></td>
+            <td>Hydratační krém na obličej</td>
+            <td>250 Kč</td>
+            <td><button class="btn btn-primary">Odebrat</button></td>
+          </tr>
+          <tr>
+            <td><img src="https://media.istockphoto.com/id/517490036/cs/fotografie/zvlh%C4%8Dova%C4%8D.jpg?s=1024x1024&w=is&k=20&c=0RRCmwIeJjSQRClK1gu60qGMs661NSHFZVGtI-OwpFE=" alt="Obrázek produktu" style="max-width: 100px;"></td>
+            <td>Pleťový krém s kolagenem</td>
+            <td>150 Kč</td>
+            <td><button class="btn btn-primary">Odebrat</button></td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  <!-- Pata -->
+  <footer class="bg-gray-800 text-white py-3">
+    <div class="container text-center">
+      &copy; 2024.
+    </div>
+  </footer>
+</body>
+</html>

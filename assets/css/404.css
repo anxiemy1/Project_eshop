@@ -1,0 +1,14 @@
+
+body {
+    background-color: #f8f9fa;
+  }
+  .wrapper-404 {
+    padding: 50px;
+    text-align: center;
+  }
+  .logo-404 {
+    max-width: 200px;
+  }
+  .btn-home {
+    margin-top: 20px;
+  }
